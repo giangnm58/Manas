@@ -1,0 +1,10 @@
+/jwyang/faster-rcnn.pytorch
+/eriklindernoren/PyTorch-GAN
+/microsoft/MMdnn
+/NVIDIA/pix2pixHD
+/OpenMined/PySyft
+/OpenNMT/OpenNMT-py
+/1adrianb/face-alignment
+/jcjohnson/pytorch-examples
+/jadore801120/attention-is-all-you-need-pytorch
+/hunkim/PyTorchZeroToAll

@@ -1,0 +1,20 @@
+{'func': 'Conv2d', 'arg1': 3, 'arg2': 64, 'kernel_size': [3, 3], 'stride': [2, 2], 'padding': [1, 1]}
+{'func': 'ReLU'}
+{'func': 'MaxPool2d', 'kernel_size': 2, 'stride': 2, 'padding': 0, 'dilation': 1}
+{'func': 'Conv2d', 'arg1': 64, 'arg2': 192, 'kernel_size': [3, 3], 'stride': [1, 1], 'padding': [1, 1]}
+{'func': 'ReLU'}
+{'func': 'MaxPool2d', 'kernel_size': 2, 'stride': 2, 'padding': 0, 'dilation': 1}
+{'func': 'Conv2d', 'arg1': 192, 'arg2': 384, 'kernel_size': [3, 3], 'stride': [1, 1], 'padding': [1, 1]}
+{'func': 'ReLU'}
+{'func': 'Conv2d', 'arg1': 384, 'arg2': 256, 'kernel_size': [3, 3], 'stride': [1, 1], 'padding': [1, 1]}
+{'func': 'ReLU'}
+{'func': 'Conv2d', 'arg1': 256, 'arg2': 256, 'kernel_size': [3, 3], 'stride': [1, 1], 'padding': [1, 1]}
+{'func': 'ReLU'}
+{'func': 'MaxPool2d', 'kernel_size': 2, 'stride': 2, 'padding': 0, 'dilation': 1}
+{'func': 'Dropout', 'p': 0.5}
+{'func': 'Linear', 'in_features': 1024, 'out_features': 4096}
+{'func': 'ReLU'}
+{'func': 'Dropout', 'p': 0.5}
+{'func': 'Linear', 'in_features': 4096, 'out_features': 4096}
+{'func': 'ReLU'}
+{'func': 'Linear', 'in_features': 4096, 'out_features': 10}
