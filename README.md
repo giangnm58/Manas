@@ -15,7 +15,7 @@ Mining model will take time, we already download the models located in autokeras
 
 2. Manas:
 
-The data of Banas paper can be downloaded from: https://drive.google.com/file/d/1KrCmsGwqkyGV8gPax8W3PetSPRmJdm-U/view?usp=sharing
+The data of Manas paper can be downloaded from: https://drive.google.com/file/d/1RkioOgFQZtJbD6CgqhRDYMSkOjywa7ot/view?usp=sharing
 
 Data contains:
 
@@ -23,11 +23,11 @@ Data contains:
 
 - Training and testing data.
 
-- Trained models of Original Banas, Transformed Banas, Banas, and Auto-Keras in form of pkl files.
+- Trained models of Original Manas, Transformed Manas, Manas, and Auto-Keras in form of pkl files.
 
-- Excel files for error rates of Original Banas, Transformed Banas, Banas, and Auto-Keras over time. These error can also be shown by using trained models (pkl files).
+- Excel files for error rates of Original Manas, Transformed Manas, Manas, and Auto-Keras over time. These error can also be shown by using trained models (pkl files).
 
-Example to reproduce Banas results:
+Example to reproduce Manas results:
 
 We use Blood Cell problem as an example.
 
