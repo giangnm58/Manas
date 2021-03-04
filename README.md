@@ -16,6 +16,7 @@ Mining model will take time, we already download the models located in autokeras
 2. Manas:
 
 The data of Manas paper can be downloaded from: https://drive.google.com/file/d/1x8jZ27Ho9tZ5H1bVOvOCQB0xpi6n3FnN/view?usp=sharing
+
 Data contains:
 
 - Python files to reproduce the results. 
