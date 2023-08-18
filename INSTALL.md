@@ -1,5 +1,21 @@
 
 ## Installation
+### Environment Setup
+To run Fair-AutoML, we need to install Python 3 environment on Linux. Follow these steps to clone the Fair-AutoML repository and install Fair-AutoML.
+
+1. Clone this repository and move to the directory:
+
+```
+git clone https://github.com/giangnm58/Manas.git
+cd Manas/
+``` 
+
+2. Navigate to the cloned repository: `cd Manas/` and install required packages:
+
+```
+pip install -r requirements.txt
+```
+## Run the Manas tool
 
 For optimal program execution, we employ PyCharm, a user-friendly integrated development environment.
 
