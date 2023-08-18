@@ -43,13 +43,3 @@ Step 1: Replace "path" with correct path.
 Step 2: Run the file "eval.py" 
 
 
-## Data
-
-Due to the extensive size of the dataset, you can access the complete artifact along with the dataset by downloading it from Google Drive via the following link: [Google Drive Link](https://drive.google.com/file/d/1x8jZ27Ho9tZ5H1bVOvOCQB0xpi6n3FnN/view?usp=sharing).
-
-The provided dataset encompasses the following components:
-
-* Python files essential for result replication.
-* Both training and testing data subsets.
-* Trained models, available as pkl files, for Original Manas, Transformed Manas, Manas, and Auto-Keras.
-* Excel files containing error rate information for Original Manas, Transformed Manas, Manas, and Auto-Keras across different time periods. These errors can also be visualized using the provided trained model pkl files.
