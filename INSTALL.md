@@ -56,12 +56,14 @@ Step 1: Download the data from [Google Drive Link](https://drive.google.com/file
 
 Step 2: copy the "Blood Cell.py", "xtest_bc.npy", "ytest_bc.npy", "xtrain_bc.npy", "ytrain_bc.npy" to "autokeras"
 ```
-cp Blood Cell.py  xtest_bc.npy ytest_bc.npy xtrain_bc.npy ytrain_bc.npy autokeras/
+cd Manas Data/Blood Cell
+cp xtest_bc.npy ytest_bc.npy xtrain_bc.npy ytrain_bc.npy autokeras/
+cp Classification/Blood Cell.py autokeras/
 ```
 
 Step 3: Run the file "Blood Cell.py" to get the result.
 ```
-python3 adult_GBC_AOD.py
+python3 Blood Cell.py
 ```
 
 **Example to evaluate trained models:**
