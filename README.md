@@ -12,50 +12,36 @@ Today deep learning is widely used for building software. A software engineering
 in NAS. We have extended Auto-Keras to implement our approach. Our evaluation using 8 top voted problems from Kaggle for tasks including image classification and image regression shows that given the same search time, without loss of accuracy, Manas produces models with 42.9% to 99.6% fewer number of parameters than Auto-Keras’ models. Benchmarked on GPU, Manas’ models train 30.3% to 641.6% faster than Auto-Keras’ models.
 
 ![The problem tackled by Manas](overview.JPG)
+### Environment Setup
+To run Fair-AutoML, we need to install Python 3 environment on Linux. 
 
-We use Pycharm to run the program conveniently.
+### Environment Setup
+Follow these steps to clone the Fair-AutoML repository and install Fair-AutoML.
 
-Download Pycharm from https://www.jetbrains.com/pycharm/ and install Pycharm.
+1. Clone this repository and move to the directory:
 
-Step 1: open Pycharm
+```
+git clone https://github.com/giangnm58/Manas.git
+cd Manas/
+``` 
 
-Step 2: go to File, then go to Open.
+2. Navigate to the cloned repository: `cd Manas/` and install required packages:
 
-Step 3: choose the directory of Manas to open the project.
+```
+pip install -r requirements.txt
+```
+
+To run the tool, please refer to the [installation file](/INSTALL.md) for detailed instructions. 
 
 
-1. Model mining:
-To mine the model run the file clone/model_mining/database_creation/model_collection.py
-Mining model will take time, we already download the models located in autokeras/mined_model. The models is stored in form of abstract neural network (ANN).
 
-2. Manas:
-
-The data of Manas paper can be downloaded from: https://drive.google.com/file/d/1x8jZ27Ho9tZ5H1bVOvOCQB0xpi6n3FnN/view?usp=sharing
-
-Data contains:
-
-- Python files to reproduce the results. 
-
-- Training and testing data.
-
-- Trained models of Original Manas, Transformed Manas, Manas, and Auto-Keras in form of pkl files.
-
-- Excel files for error rates of Original Manas, Transformed Manas, Manas, and Auto-Keras over time. These error can also be shown by using trained models (pkl files).
-
-Example to reproduce Manas results:
-
-We use Blood Cell problem as an example.
-
-Step 1: Extract zip file.
-
-Step 2: copy the "Blood Cell.py", "xtest_bc.npy", "ytest_bc.npy", "xtrain_bc.npy", "ytrain_bc.npy" to "autokeras"
-
-Step 3: Run the file "Blood Cell.py" to get the result.
-
-Example to evaluate trained models:
-
-In the folder autokeras, there is a file "eval.py" which contains the code to run the trained models on the testing data.
-
-Step 1: Replace "path" with correct path.
-
-Step 2: Run the file "eval.py" 
+### Cite the paper as
+```
+@inproceedings{nguyen2022manas,
+  title={Manas: Mining software repositories to assist automl},
+  author={Nguyen, Giang and Islam, Md Johirul and Pan, Rangeet and Rajan, Hridesh},
+  booktitle={Proceedings of the 44th International Conference on Software Engineering},
+  pages={1368--1380},
+  year={2022}
+}
+```
