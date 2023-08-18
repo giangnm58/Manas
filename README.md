@@ -13,10 +13,7 @@ in NAS. We have extended Auto-Keras to implement our approach. Our evaluation us
 
 ![The problem tackled by Manas](overview.JPG)
 ### Environment Setup
-To run Fair-AutoML, we need to install Python 3 environment on Linux. 
-
-### Environment Setup
-Follow these steps to clone the Fair-AutoML repository and install Fair-AutoML.
+To run Fair-AutoML, we need to install Python 3 environment on Linux. Follow these steps to clone the Fair-AutoML repository and install Fair-AutoML.
 
 1. Clone this repository and move to the directory:
 
@@ -34,6 +31,16 @@ pip install -r requirements.txt
 To run the tool, please refer to the [installation file](/INSTALL.md) for detailed instructions. 
 
 
+## Additional Data
+
+Due to the extensive size of the dataset, you can access the complete artifact along with the dataset by downloading it from Google Drive via the following link: [Google Drive Link](https://drive.google.com/file/d/1x8jZ27Ho9tZ5H1bVOvOCQB0xpi6n3FnN/view?usp=sharing).
+
+The provided dataset encompasses the following components:
+
+* Python files essential for result replication.
+* Both training and testing data subsets.
+* Trained models, available as pkl files, for Original Manas, Transformed Manas, Manas, and Auto-Keras.
+* Excel files containing error rate information for Original Manas, Transformed Manas, Manas, and Auto-Keras across different time periods. These errors can also be visualized using the provided trained model pkl files.
 
 ### Cite the paper as
 ```
